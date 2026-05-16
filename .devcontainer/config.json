@@ -14,7 +14,7 @@
       "streamSettings": {
         "network": "xhttp",
         "xhttpSettings": {
-          "mode": "stream-up",
+          "mode": "packet-up",
           "path": "/"
         }
       }
@@ -22,10 +22,7 @@
   ],
   "outbounds": [
     {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIPv4"
-      }
+      "protocol": "freedom"
     }
   ]
 }
